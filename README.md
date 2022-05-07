@@ -2,6 +2,7 @@
 
 - This is README file for the paper "Pneumonia Chest X-ray Image Classification". This paper is a final project report for the Deep learning in Medicine (BMIN-GA 3007) at Department of Biomedical Informatics at NYU Grossman School of Medicine.
 
+------------------------------------------------------
 - Part 1 focuses on data clearning, and preoprocessing for running deep learning models
 
 - Part 2 focuses on running deep learning models as follows:
