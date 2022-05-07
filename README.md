@@ -2,7 +2,9 @@
 
 This paper is a final project report for the Deep learning in Medicine (BMIN-GA 3007) at Department of Biomedical Informatics at NYU Grossman School of Medicine.
 
+------------------------------------------------------
 ## [Table of contents]
+
 - 1. Data preprocessing
     - 1.1. Checking current files
     - 1.2. Merge all to a single location
