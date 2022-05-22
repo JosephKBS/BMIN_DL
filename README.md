@@ -1,36 +1,27 @@
 # Pneumonia Chest X-ray Image Classification
 
 - This is README file for the paper "Pneumonia Chest X-ray Image Classification". This paper is a final project report for the Deep learning in Medicine (BMIN-GA 3007) at Department of Biomedical Informatics at NYU Grossman School of Medicine.
-
 ------------------------------------------------------
-- Part 1 focuses on data clearning, and preoprocessing for running deep learning models
 
-- Part 2 focuses on running deep learning models as follows:
-    - 1. Simple CNN Model
-    - 2. BatchNorm Model
-    - 3. ResNet18 and Resnet50
-    - 4. InceptionV3
+## [Abstract]
+Deep learning-based model has been suggested to aid medical diagnosis process due to its efficiency and reliability in performance due to an expected shortage in physicians in the United States. This paper attempts to achieve a clinician level-accuracy in Pneumonia disease detection with chest X-ray images using multiple deep learning-based models, espe- cially using convolutional neural network, including ResNet and InceptionV3. The models reached a high performance(81%) but unsuccessful in outperforming the average clinician’s diagnosis accuracy(86%).
 
 ------------------------------------------------------
 ## [Table of contents]
 
 - 1. Data preprocessing
-    - 1.1. Checking current files
-    - 1.2. Merge all to a single location
-    - 1.3. Distribute to validation and test dataset folders
-    - 1.4 Checking data size
-    - 1-5. Data preprocessing
-    - 1.6. Run all necessary functions - train, evaluation, visualization..etc
 - 2. Model Training
     - 2.1. Simple CNN Model 
     - 2.2. BatchNorm model
-        - 2.2.B. BatchNorm with class balance
     - 2.3. ResNet-18 Model
-        - 2.3.B ResNet-18 with class-balanced
-        - 2.3.C ResNet-18 with class-balanced (30 epochs)
-        - 2.3.D ResNet-50 with 2 layers
-        - 2.3.E ResNet-50 with 1 layer
     - 2.4. Inception V3 Model with 10 epochs
-        - 2.4.B Inception V3 with 20 epoch
-        - 2.4.C Inception V3 with 30 epoch
-        - 2.4.D Inception with class-balanced
+
+------------------------------------------------------
+## [Result]
+
+| Metric    | CNN  | BATCH | R18  | R18B | R50  | IV3  | IV3B |
+|-----------|------|-------|------|------|------|------|------|
+| Acc(val)  | 0.77 | 0.79  | 0.78 | 0.83 | 0.79 | 0.78 | 0.81 |
+| Acc(test) | 0.76 | 0.70  | 0.80 | 0.79 | 0.76 | 0.76 | 0.81 |
+| AUC       | 0.87 | 0.87  | 0.91 | 0.91 | 0.89 | 0.88 | 0.91 |
+| F1        | 0.71 | 0.70  | 0.78 | 0.77 | 0.75 | 0.73 | 0.77 |
