@@ -15,7 +15,8 @@ Deep learning-based model has been suggested to aid medical diagnosis process du
     - 2.2. BatchNorm model
     - 2.3. ResNet-18 Model
     - 2.4. Inception V3 Model with 10 epochs
-
+------------------------------------------------------
+![main](inception_model.png)
 ------------------------------------------------------
 ## [Result]
 
