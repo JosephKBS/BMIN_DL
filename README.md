@@ -19,6 +19,8 @@ Deep learning-based model has been suggested to aid medical diagnosis process du
 ------------------------------------------------------
 ## [Result]
 
+- A summary tabke of model-performance
+
 | Metric    | CNN  | BATCH | R18  | R18B | R50  | IV3  | IV3B |
 |-----------|------|-------|------|------|------|------|------|
 | Acc(val)  | 0.77 | 0.79  | 0.78 | 0.83 | 0.79 | 0.78 | 0.81 |
