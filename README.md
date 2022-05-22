@@ -28,3 +28,5 @@ Deep learning-based model has been suggested to aid medical diagnosis process du
 | Acc(test) | 0.76 | 0.70  | 0.80 | 0.79 | 0.76 | 0.76 | 0.81 |
 | AUC       | 0.87 | 0.87  | 0.91 | 0.91 | 0.89 | 0.88 | 0.91 |
 | F1        | 0.71 | 0.70  | 0.78 | 0.77 | 0.75 | 0.73 | 0.77 |
+
+    - BATCHNORM (BatchNorm model), R18(ResNet-18), R18B(ResNet-18 with class balanced), R50 (ResNet-50), IV3 (Inception V3), IV3B (Inception V3 with class balanced)
