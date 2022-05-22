@@ -1,3 +1,4 @@
+![main](inception_model.png)
 # Pneumonia Chest X-ray Image Classification
 
 - This is README file for the paper "Pneumonia Chest X-ray Image Classification". This paper is a final project report for the Deep learning in Medicine (BMIN-GA 3007) at Department of Biomedical Informatics at NYU Grossman School of Medicine.
@@ -15,8 +16,7 @@ Deep learning-based model has been suggested to aid medical diagnosis process du
     - 2.2. BatchNorm model
     - 2.3. ResNet-18 Model
     - 2.4. Inception V3 Model with 10 epochs
-------------------------------------------------------
-![main](inception_model.png)
+
 ------------------------------------------------------
 ## [Result]
 
